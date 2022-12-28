@@ -3,7 +3,7 @@
 #include "PredefinedStaticMember.h"
 
 class MyClass {
-	CREATE_STATIC_VARIABLE(int, value, 0)
+	CREATE_STATIC_VARIABLE(int, value)
 public:
 	MyClass() {
 		ACCESS_STATIC_VARIABLE(value)++;
