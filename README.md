@@ -70,7 +70,7 @@ public:
 ```cpp
 #include <iostream>
 
-#include "InitializedStaticMember.h"
+#include "PredefinedStaticMember.h"
 
 class MyClass {
 	CREATE_STATIC_VARIABLE(int, value)
